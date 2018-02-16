@@ -5,6 +5,7 @@ class User < ApplicationRecord
 	  user.uid = auth.uid
 	  user.first_name = auth.info.first_name
 	  user.last_name = auth.info.last_name
+	  user.username = auth.info.username
 	  user.email = auth.info.email
 	  user.picture = auth.info.image
 	  user.access_token = auth.credentials.token

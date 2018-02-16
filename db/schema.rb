@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20180215120430) do
     t.string "email"
     t.string "first_name"
     t.string "last_name"
+    t.string "username"
     t.string "picture"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

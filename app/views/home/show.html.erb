@@ -1,1 +1,7 @@
-<h1> Welcome, please login to continue </h1>
+<div class="container">
+	<% if current_user %>
+		<h1>Welcome <%= current_user.provider %> user Yay!!!</h1>
+	<% else %>
+		<h1> Welcome, please login with Instagram to continue </h1>
+	<% end %>
+</div>
