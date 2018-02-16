@@ -57,4 +57,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth', '~> 1.8', '>= 1.8.1'
 gem 'omniauth-instagram', '~> 1.3'
 gem 'instagram_api_client', '~> 0.2.1'
-gem 'instagram'
